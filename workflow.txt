@@ -1,0 +1,29 @@
+1. create a sample database
+2. connecting to database
+3. twitter bootstrap powered grid
+
+
+
+1.create sample database
+> a class to handle database
+> class's private members: dbName, dbHost etc
+> $cont is our connection
+>   _construct()
+    connect()
+    disconnect()
+    createDatabase()
+>additional utility script: sql_cleaner.php , insert.php etc
+
+
+2.develop index page using a grid of bootstrap where formatted database are shown
+>establish connection
+>foreach pdo query and create table
+>also generate button for read, update and delete
+
+3. read.php : read data from database
+4. update.php
+5. delete.php
+
+Knoldege required:
+1. PDO connection
+2. prepared statement and running sql
