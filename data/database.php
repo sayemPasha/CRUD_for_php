@@ -56,7 +56,9 @@ class Database
             $sql = file_get_contents($sqlSource);
             $connection->exec($sql);
 
-            $msg_databaseInitSuccess = "Databse Initialized Successfully";
+            $msg_databaseInitSuccess = "Databse Initialized Successfully. 
+            TODO: Change dbName to your desired database.
+            dbName can be found in database.php";
             echo $msg_databaseInitSuccess;
         }
         catch (PDOException $error){
